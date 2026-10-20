@@ -1,0 +1,6 @@
+---
+- name: Redémarrer l'application
+  ansible.builtin.command: pm2 restart {{ pm2_app_name }} --update-env
+  environment:
+    PORT: "{{ app_port }}"
+  become_user: "{{ app_user }}"

@@ -1,0 +1,9 @@
+---
+app_repo: "https://github.com/wissalelkouk/portfolio.git"
+app_version: "main"
+app_dir: "/opt/portfolio"
+app_port: 3000
+app_user: "deploy"
+pm2_app_name: "portfolio"
+server_name: "portfolio.local"
+node_major: 20
